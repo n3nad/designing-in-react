@@ -114,6 +114,49 @@ return <Button disabled={isDisabled} />
 
 ---
 
+## Prefixes
+
+Prefix enhances the meaning of a variable. It is rarely used in function names.
+
+### `is`
+
+Describes a characteristic or state of the current context (usually `boolean`).
+
+```js
+const color = 'blue'
+const isBlue = color === 'blue' // characteristic
+const isPresent = true // state
+
+if (isBlue && isPresent) {
+  console.log('Blue is present!')
+}
+```
+
+### `has`
+
+Describes whether the current context possesses a certain value or state (usually `boolean`).
+
+```js
+/* Bad */
+const isProductsExist = productsCount > 0
+const areProductsPresent = productsCount > 0
+
+/* Good */
+const hasProducts = productsCount > 0
+```
+
+### `should`
+
+Reflects a positive conditional statement (usually `boolean`) coupled with a certain action.
+
+```js
+function shouldUpdateUrl(url, expectedUrl) {
+  return url !== expectedUrl
+}
+```
+
+---
+
 # Naming functions
 
 ## A/HC/LC Pattern
@@ -281,48 +324,7 @@ function getRecentPosts(posts) {
 
 > Some language-specific assumptions may allow omitting the context. For example, in JavaScript, it's common that `filter` operates on Array. Adding explicit `filterArray` would be unnecessary.
 
----
 
-## Prefixes
-
-Prefix enhances the meaning of a variable. It is rarely used in function names.
-
-### `is`
-
-Describes a characteristic or state of the current context (usually `boolean`).
-
-```js
-const color = 'blue'
-const isBlue = color === 'blue' // characteristic
-const isPresent = true // state
-
-if (isBlue && isPresent) {
-  console.log('Blue is present!')
-}
-```
-
-### `has`
-
-Describes whether the current context possesses a certain value or state (usually `boolean`).
-
-```js
-/* Bad */
-const isProductsExist = productsCount > 0
-const areProductsPresent = productsCount > 0
-
-/* Good */
-const hasProducts = productsCount > 0
-```
-
-### `should`
-
-Reflects a positive conditional statement (usually `boolean`) coupled with a certain action.
-
-```js
-function shouldUpdateUrl(url, expectedUrl) {
-  return url !== expectedUrl
-}
-```
 
 ### `min`/`max`
 
