@@ -1,5 +1,18 @@
 # React coding styles
 
+Before we dive into guidelines, it would be good to establish a common baseline: Everything written here, and in every book or text on the topic of good coding practices, boils down to a single concept: how to use wisely the most precious resource - our brain power.
+The critical thing is to understand that the amount of that resource in our possession is not limitless. It is constrained by our cognitive capacity. 
+
+Every day we encounter a situation, perform an action or speak to someone. If we try to generalize any of those experiences, we can divide it in three sub-activities: 
+
+**1) Understand what's going on -> 2) Think what should I do -> 3) Do it.**
+
+The same applies to coding practice.
+
+Depending on the severity of a situation, the importance of a task, or the emotional connection to a person at hand, the amount of the brain power needed to understand the situation, resolve the issue or enjoy the conversation will vary. That amount of brain power needed is known as _cognitive load_.
+
+The examples below aim to reduce our cognitive load the next time we visit our code.
+
 - [English language](#english-language)
 - [Naming convention](#naming-convention)
 - [S-I-D](#s-i-d)
