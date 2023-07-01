@@ -1,21 +1,23 @@
 # React coding styles
 
-Before we dive into guidelines, it would be good to establish a common baseline: Everything written here, and in every book or text on the topic of good coding practices, boils down to a single concept: how to use wisely the most precious resource we have - the brain power.
+Before we dive into guidelines, it would be good to establish a common baseline: 
+
+Everything written here, and in every book or text on the topic of good coding practices, boils down to a single concept: how to use wisely the most precious resource we have - the brain power.
+
 The critical thing to understand is that the amount of that resource in our possession is not limitless. It is constrained by our cognitive capacity.
 
-Every day when we encounter a situation, perform an action or speak to someone, we need a portion of our brain power to understand the situation, successfully perform the action or just enjoy the conversation. That amount of brain power required is known as _cognitive load_.
+If we try to generalize any of our everyday activities, we can divide our activity into three sub-activities:
 
-If we try to generalize any of those experiences, we can divide our activity into three sub-activities:
-
-**1) Understand what's going on -> 2) Think what should I do -> 3) Do it.**
+**1) Understand what's going on -> 2) Think what to do -> 3) Do it.**
 
 The same applies to coding practice.
 
-The second critical thing to understand is that if cognitive load needed for the step 1) is equal to our capacity, we will have nothing left for the steps 2) and 3).
+The second critical thing to understand is that if the cognitive load needed for step 1) is equal to our capacity, we will have nothing left for steps 2) and 3).
 
-We can agree that steps 2) and 3) are the creative ones. Ones that make coding fun.
+We can agree that steps 2) and 3) are the creative ones. Ones that make coding enjoyable.
 
-The examples below aim to reduce our cognitive load needed for the step 1).
+The examples below aim to reduce the cognitive load needed for step 1).
+
 
 - [English language](#english-language)
 - [Naming convention](#naming-convention)
